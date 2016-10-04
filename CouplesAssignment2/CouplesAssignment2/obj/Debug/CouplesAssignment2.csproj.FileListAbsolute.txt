@@ -1,0 +1,9 @@
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\CouplesAssignment2\CouplesAssignment2\bin\Debug\CouplesAssignment2.exe.config
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\CouplesAssignment2\CouplesAssignment2\bin\Debug\CouplesAssignment2.exe
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\CouplesAssignment2\CouplesAssignment2\bin\Debug\CouplesAssignment2.pdb
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\CouplesAssignment2\CouplesAssignment2\obj\Debug\CouplesAssignment2.csprojResolveAssemblyReference.cache
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\CouplesAssignment2\CouplesAssignment2\obj\Debug\CouplesAssignment2.exe
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\CouplesAssignment2\CouplesAssignment2\obj\Debug\CouplesAssignment2.pdb
+C:\Users\amccord\Desktop\CouplesAssignment2\CouplesAssignment2\bin\Debug\CouplesAssignment2.exe.config
+C:\Users\amccord\Desktop\CouplesAssignment2\CouplesAssignment2\obj\Debug\CouplesAssignment2.exe
+C:\Users\amccord\Desktop\CouplesAssignment2\CouplesAssignment2\obj\Debug\CouplesAssignment2.pdb
