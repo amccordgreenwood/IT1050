@@ -1,0 +1,6 @@
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\GitHub\IT1050\StudentInstructor\StudentInstructor\bin\Debug\StudentInstructor.exe.config
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\GitHub\IT1050\StudentInstructor\StudentInstructor\bin\Debug\StudentInstructor.exe
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\GitHub\IT1050\StudentInstructor\StudentInstructor\bin\Debug\StudentInstructor.pdb
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\GitHub\IT1050\StudentInstructor\StudentInstructor\obj\Debug\StudentInstructor.exe
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\GitHub\IT1050\StudentInstructor\StudentInstructor\obj\Debug\StudentInstructor.pdb
+C:\Users\amccord\Desktop\HomeWorkd\IT1050\GitHub\IT1050\StudentInstructor\StudentInstructor\obj\Debug\StudentInstructor.csprojResolveAssemblyReference.cache

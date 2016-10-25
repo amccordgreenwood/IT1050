@@ -1,43 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CouplesAssignment2
+﻿namespace CouplesAssignment2
 {
     class Person
-
     {
-        public Person Spouse;
-        public string Name;
-        public string FirstName;
-        public string LastName;
-        public int Age;
-        public string MaritalStatus;
-        public string SpouseFirstName;
-        public string SpouseLastName;
-        public int SpouseAge;
-        public int sumOfAllAges;
+        #region Member Variables
+        public Person Spouse;               // Every Person has a Spouse.
+        public string FirstName;            // Every Person has a FirstName.
+        public string LastName;             // Every Person has a LastName.
+        public int Age;                     // Every Person has an Age.
+        public string MaritalStatus;          // Every Person is married.
+        #endregion
 
-        public string GetFullName(string firstName, string lastName)
+        #region Static Variables
+        public static double sumOfAllAges;     // There is ONE sum of all People ages.
+        #endregion
+
+        public string GetFullName()
         {
-            string fullName = "";
-            fullName += this.FirstName;
-            fullName += ",";
-            fullName += this.LastName;
-            return fullName; 
+            return FirstName + " , " + LastName;
         }
 
-        public static void PrintNameAndAge(string firstName, string lastName, int age, string SpouseFirstName, string SpouseLastName)
-            
+        public void PrintNameAndAge()
         {
-           //System.Console.WriteLine("Printing Results:  " + firstName + lastName + age + spouseFirstName + spouseLastName );
-           System.Console.WriteLine(firstName + ", " + lastName + " (" + age + ")");
-            
+            System.Console.WriteLine(GetFullName() + ", " + Age + ".");
         }
-        
-
-
     }
 }
