@@ -1,0 +1,6 @@
+C:\Users\amccord\Desktop\IT1050\ExampleProject\ExampleProject\bin\Debug\ExampleProject.exe.config
+C:\Users\amccord\Desktop\IT1050\ExampleProject\ExampleProject\bin\Debug\ExampleProject.exe
+C:\Users\amccord\Desktop\IT1050\ExampleProject\ExampleProject\bin\Debug\ExampleProject.pdb
+C:\Users\amccord\Desktop\IT1050\ExampleProject\ExampleProject\obj\Debug\ExampleProject.csprojResolveAssemblyReference.cache
+C:\Users\amccord\Desktop\IT1050\ExampleProject\ExampleProject\obj\Debug\ExampleProject.exe
+C:\Users\amccord\Desktop\IT1050\ExampleProject\ExampleProject\obj\Debug\ExampleProject.pdb

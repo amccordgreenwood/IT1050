@@ -9,7 +9,7 @@
         private string teacher;
 
         // constructors with no return type 
-        public  Student(string Name, int Grade, string Teacher)  
+        public Student(string Name, int Grade, string Teacher)
         {
             this.name = Name;        // parameter is to the left of the =  variables
             this.grade = Grade;      // parameter is to the left of the =  variables
@@ -19,15 +19,16 @@
         private void SetName(string newName)  //local variable 
         {
             //
-            this.name = newName; 
+            this.name = newName;
         }  // that string name goes out of scope
 
         public string GetName()
         {
-            return  name; }
-          
-             
-          public void SetGrade(int theGrade)//local variable 
+            return name;
+        }
+
+
+        public void SetGrade(int theGrade)//local variable 
         {
             this.grade = theGrade;
         }
@@ -35,25 +36,13 @@
         {
             return this.grade;
         }
-                public void PrintAllInformation()
+        public void PrintAllInformation()
         {
 
         }
-    
-                      
-        }
-        
-        }
-    
-      
-        
-                   
-           
-        
-            
-         
-        
-        
-            
-    
+
+
+    }
+
+}
 
