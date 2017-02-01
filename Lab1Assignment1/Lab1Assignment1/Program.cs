@@ -44,6 +44,7 @@ namespace Lab1Assignment1
             System.Console.Write("Are you a US citizen? ");
             bool isCitizen;
             isCitizen = true;
+            isCitizen = false;
             System.Console.WriteLine(isCitizen);
 
             System.Console.WriteLine("Your full name to is: " + firstName + " . " + middleInital + " " + lastName + " ");
