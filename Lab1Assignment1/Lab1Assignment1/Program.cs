@@ -55,8 +55,7 @@ namespace Lab1Assignment1
             System.Console.WriteLine("Your total height in centimeters:" + totalHeightCM);
             System.Console.WriteLine("Press any key to continue...");
             System.Console.WriteLine("Voter eligibility:" + canVote);
-
-            
+                      
             System.Console.ReadKey();
 
             
