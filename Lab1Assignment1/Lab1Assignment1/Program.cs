@@ -41,9 +41,9 @@ namespace Lab1Assignment1
             int age;
             age = int.Parse(System.Console.ReadLine());
 
-            System.Console.Write("Are you a US citizen? ");
-            bool isCitizen;
-            isCitizen = bool.Parse(System.Console.ReadLine());
+            //System.Console.Write("Are you a US citizen? Yes/No ");
+            //bool isCitizen;
+            //isCitizen = bool.Parse(System.Console.ReadLine());
 
             bool canVote;
             canVote = age >= 18;
