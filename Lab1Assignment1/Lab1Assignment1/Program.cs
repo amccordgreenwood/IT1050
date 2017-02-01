@@ -43,18 +43,23 @@ namespace Lab1Assignment1
 
             System.Console.Write("Are you a US citizen? ");
             bool isCitizen;
-            isCitizen = true;
-            isCitizen = false;
-            System.Console.WriteLine(isCitizen);
+            isCitizen = bool.Parse(System.Console.ReadLine());
+
+            bool canVote;
+            canVote = age >= 18;
+
+
 
             System.Console.WriteLine("Your full name to is: " + firstName + " . " + middleInital + " " + lastName + " ");
             System.Console.WriteLine("Press any key to continue...");
             System.Console.WriteLine("Your total height in centimeters:" + totalHeightCM);
             System.Console.WriteLine("Press any key to continue...");
-            //System.Console.WriteLine("Voter eligibility:" + canVote);
+            System.Console.WriteLine("Voter eligibility:" + canVote);
+
+            
             System.Console.ReadKey();
 
-
+            
         }
     }
 }
