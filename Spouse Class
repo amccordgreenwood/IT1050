@@ -1,0 +1,24 @@
+ class Spouse
+    {
+        public int Age;
+        public string FirstName;
+        public string LastName;
+
+        public static double sumOfAllAges;
+        public void GatherDataFromUser()
+        {
+            this.FirstName = Spouse.AskForString("Enter Your Spouse's First Name:");
+            this.LastName = Spouse.AskForString("Enter Your Spouse's Last Name:");
+            this.Age = Spouse.AskForInteger("Enter Your Spouse's Age");
+        }
+
+        public static string AskForString(string prompt)
+        {
+            System.Console.Write(prompt.PadRight(33) + " : ");
+            return System.Console.ReadLine();
+        }
+
+        public static int AskForInteger(string prompt)
+        {
+            return int.Parse(AskForString(prompt));
+        }
