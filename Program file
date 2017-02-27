@@ -1,0 +1,31 @@
+ Person p1 = new Person();
+            p1.GatherDataFromUser();
+
+            Spouse s1 = new Spouse();
+            s1.GatherDataFromUser();
+
+            Person p2 = new Person();
+            p2.GatherDataFromUser();
+
+            Spouse s2 = new Spouse();
+            s2.GatherDataFromUser();
+
+
+            int sumOfAllAges = p1.Age + s1.Age + p2.Age + s2.Age;
+            int averageAge = sumOfAllAges / 4;
+            System.Console.WriteLine("Average Age = " + averageAge);
+
+         // I can here Donnie "this is bad code. you should be able to write a method" 
+            System.Console.WriteLine("Printing results:   ");
+            System.Console.WriteLine("Your full name and age is " + p1.LastName + " , " + p1.FirstName + "," + p1.Age);
+            System.Console.WriteLine("Your full name and age is " + s1.LastName + " , " + s1.FirstName + "," + s1.Age);
+            System.Console.WriteLine("Your full name and age is " + p2.LastName + " , " + p2.FirstName + "," + p2.Age);
+            System.Console.WriteLine("Your full name and age is " + s2.LastName + " , " + s2.FirstName + "," + s2.Age);
+
+            // System.Console.WriteLine("Are you married? ");
+            System.Console.WriteLine("Your Spouse's full name and age is " + s1.FirstName + " " + s1.LastName + "." + s1.Age);
+            
+
+
+            System.Console.WriteLine("Press any key to continue...");
+            System.Console.ReadKey();
