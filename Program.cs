@@ -1,24 +1,64 @@
-﻿namespace Lab3
+﻿
+
+namespace Lab4Movies2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Instructor John = new Instructor("John", "English");
+            ShowMovieMenu();
+            CollectMovieTime();
 
-            //System.Console.WriteLine("Pausing 5 seconds");
-            //System.Threading.Thread.Sleep(5000);
-
-            Instructor Mike = new Instructor("Mike", "Math");
+            string command1 = System.Console.ReadLine();
 
 
-            Student Jane = new Student("Jane", John);
-            Student Joe = new Student("Joe", John);
-            Student Melissa = new Student("Melissa", Mike);
-            Student Matt = new Student("Matt",Mike);
+            if (command1 == "1")
+            {
+                Price myPrice = new Price();
+                myPrice.GatherMatineePrice();
+                myPrice.GatherConData();
+                System.Console.WriteLine("Total:" + myPrice.GetTotalPurchase());
+            }
+            else if (command1 == "2")
+            {
+                Price myPrice = new Price();
+                myPrice.GatherMatineePrice();
+                myPrice.GatherConData();
+                System.Console.WriteLine("Total:" + myPrice.GetTotalPurchase());
+            }
+            else
+            {
+                System.Console.WriteLine();
+                System.Console.WriteLine("Invalid option");
+            }
 
-         
-            System.Console.WriteLine("Press any key to continue...");
+
+            EndofProgram();
+        }
+
+        ///////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////
+
+        private static void ShowMovieMenu()
+        {
+            System.Console.WriteLine();
+            System.Console.WriteLine("  ");
+            System.Console.WriteLine("What time? ");
+            System.Console.WriteLine("type: 1 - Matinee:Before 5pm.");
+            System.Console.WriteLine("type: 2 - Evening:After 5pm. ");
+               }
+
+        private static void CollectMovieTime()
+        {
+            System.Console.WriteLine();
+            System.Console.Write(" ");
+        }
+
+        private static void EndofProgram()
+        {
+            System.Console.WriteLine();
+            System.Console.WriteLine(" Press any key to continue... ");
+            System.Console.Write(" ");
             System.Console.ReadKey();
         }
     }
